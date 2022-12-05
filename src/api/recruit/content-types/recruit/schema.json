@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recruits",
+  "info": {
+    "singularName": "recruit",
+    "pluralName": "recruits",
+    "displayName": "recruit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "richtext"
+    },
+    "thumbImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
